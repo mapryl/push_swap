@@ -40,7 +40,7 @@ t_vector	*parse_string(const char *str)
 
 	vec = (t_vector*)malloc(sizeof(t_vector));
 	if (!vec)
-		error("parse_string");
+		error("Error\n");
 	vector_create(vec);
 	populate(str, " \t\n", vec);
 	return (vec);
@@ -53,7 +53,7 @@ t_vector	*parse_many_strings(int argc, char **argv)
 
 	vec = (t_vector*)malloc(sizeof(t_vector));
 	if (!vec)
-		error("parse_string");
+		error("Error\n");
 	vector_create(vec);
 	i = 1;
 	while (i < argc)

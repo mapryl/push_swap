@@ -43,7 +43,7 @@ void	operation_list_add(t_operation_list *op_list, t_cmd cmd)
 
 	new_node = (t_operation_node*)malloc(sizeof(t_operation_node));
 	if (!new_node)
-		error("operation_list_add failed");
+		error("Error\n");
 	new_node->next = NULL;
 	new_node->cmd = cmd;
 	cur = &op_list->op;

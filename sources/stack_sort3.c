@@ -34,7 +34,7 @@ int		get_case_number(int *arr)
 		return (4);
 	else if (a1 < a2 && a2 > a3 && a1 < a3)
 		return (5);
-	error("unexpected if path");
+	error("Error\n");
 	return (0);
 }
 

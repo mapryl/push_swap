@@ -15,7 +15,6 @@
 
 typedef enum
 {
-	CMD_NO_OP,
 	CMD_SA,
 	CMD_SB,
 	CMD_SS,
@@ -26,7 +25,8 @@ typedef enum
 	CMD_RR,
 	CMD_RRA,
 	CMD_RRB,
-	CMD_RRR
+	CMD_RRR,
+	CMD_NO_OP
 }	t_cmd;
 
 #endif

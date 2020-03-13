@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o"
+  "CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o"
+  "CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o"
@@ -11,7 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o"
   "CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o"
-  "CMakeFiles/push_swap.dir/sources/checker.c.o"
   "CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
   "CMakeFiles/push_swap.dir/sources/operation_list.c.o"
   "CMakeFiles/push_swap.dir/sources/parse.c.o"

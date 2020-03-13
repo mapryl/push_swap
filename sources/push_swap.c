@@ -31,7 +31,7 @@ int		read_array(int **result, int argc, char **argv)
 	i = 0;
 	while (i < argc)
 	{
-		array[i] = atoi(argv[i]);
+		array[i] = ft_atoi(argv[i]);
 		++i;
 	}
 	return (1);
@@ -53,26 +53,26 @@ void	print_array(int *array, int size)
 void	print_operations(t_operation_list *ops)
 {
 	t_operation_node	*node;
-	static const char	**cmds;
+	static const char	*cmds[11];
 
-	cmds[0] = "sa";
-	cmds[1] = "sb";
-	cmds[2] = "ss";
-	cmds[3] = "pa";
-	cmds[4] = "pb";
-	cmds[5] = "ra";
-	cmds[6] = "rb";
-	cmds[7] = "rr";
-	cmds[8] = "rra";
-	cmds[9] = "rrb";
-	cmds[10] = "rrr";
+	cmds[0] = "sa\n";
+	cmds[1] = "sb\n";
+	cmds[2] = "ss\n";
+	cmds[3] = "pa\n";
+	cmds[4] = "pb\n";
+	cmds[5] = "ra\n";
+	cmds[6] = "rb\n";
+	cmds[7] = "rr\n";
+	cmds[8] = "rra\n";
+	cmds[9] = "rrb\n";
+	cmds[10] = "rrr\n";
 	node = ops->op;
 	while (1)
 	{
 		if (!node)
 			break ;
 		ft_putstr(cmds[node->cmd]);
-		ft_putchar('\n');
+		//ft_putchar('\n');
 		node = node->next;
 	}
 }

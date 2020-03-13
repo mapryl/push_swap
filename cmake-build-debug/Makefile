@@ -123,6 +123,33 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+libft/sources/ft_atoi.o: libft/sources/ft_atoi.c.o
+
+.PHONY : libft/sources/ft_atoi.o
+
+# target to build an object file
+libft/sources/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o
+.PHONY : libft/sources/ft_atoi.c.o
+
+libft/sources/ft_atoi.i: libft/sources/ft_atoi.c.i
+
+.PHONY : libft/sources/ft_atoi.i
+
+# target to preprocess a source file
+libft/sources/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.i
+.PHONY : libft/sources/ft_atoi.c.i
+
+libft/sources/ft_atoi.s: libft/sources/ft_atoi.c.s
+
+.PHONY : libft/sources/ft_atoi.s
+
+# target to generate assembly for a file
+libft/sources/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.s
+.PHONY : libft/sources/ft_atoi.c.s
+
 libft/sources/ft_bzero.o: libft/sources/ft_bzero.c.o
 
 .PHONY : libft/sources/ft_bzero.o
@@ -149,6 +176,60 @@ libft/sources/ft_bzero.s: libft/sources/ft_bzero.c.s
 libft/sources/ft_bzero.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s
 .PHONY : libft/sources/ft_bzero.c.s
+
+libft/sources/ft_isdigit.o: libft/sources/ft_isdigit.c.o
+
+.PHONY : libft/sources/ft_isdigit.o
+
+# target to build an object file
+libft/sources/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o
+.PHONY : libft/sources/ft_isdigit.c.o
+
+libft/sources/ft_isdigit.i: libft/sources/ft_isdigit.c.i
+
+.PHONY : libft/sources/ft_isdigit.i
+
+# target to preprocess a source file
+libft/sources/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.i
+.PHONY : libft/sources/ft_isdigit.c.i
+
+libft/sources/ft_isdigit.s: libft/sources/ft_isdigit.c.s
+
+.PHONY : libft/sources/ft_isdigit.s
+
+# target to generate assembly for a file
+libft/sources/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.s
+.PHONY : libft/sources/ft_isdigit.c.s
+
+libft/sources/ft_isspace.o: libft/sources/ft_isspace.c.o
+
+.PHONY : libft/sources/ft_isspace.o
+
+# target to build an object file
+libft/sources/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o
+.PHONY : libft/sources/ft_isspace.c.o
+
+libft/sources/ft_isspace.i: libft/sources/ft_isspace.c.i
+
+.PHONY : libft/sources/ft_isspace.i
+
+# target to preprocess a source file
+libft/sources/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.i
+.PHONY : libft/sources/ft_isspace.c.i
+
+libft/sources/ft_isspace.s: libft/sources/ft_isspace.c.s
+
+.PHONY : libft/sources/ft_isspace.s
+
+# target to generate assembly for a file
+libft/sources/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.s
+.PHONY : libft/sources/ft_isspace.c.s
 
 libft/sources/ft_memdel.o: libft/sources/ft_memdel.c.o
 
@@ -446,33 +527,6 @@ libft/sources/get_next_line.s: libft/sources/get_next_line.c.s
 libft/sources/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s
 .PHONY : libft/sources/get_next_line.c.s
-
-sources/checker.o: sources/checker.c.o
-
-.PHONY : sources/checker.o
-
-# target to build an object file
-sources/checker.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.o
-.PHONY : sources/checker.c.o
-
-sources/checker.i: sources/checker.c.i
-
-.PHONY : sources/checker.i
-
-# target to preprocess a source file
-sources/checker.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.i
-.PHONY : sources/checker.c.i
-
-sources/checker.s: sources/checker.c.s
-
-.PHONY : sources/checker.s
-
-# target to generate assembly for a file
-sources/checker.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.s
-.PHONY : sources/checker.c.s
 
 sources/insertion_sort.o: sources/insertion_sort.c.o
 
@@ -1023,9 +1077,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap"
+	@echo "... libft/sources/ft_atoi.o"
+	@echo "... libft/sources/ft_atoi.i"
+	@echo "... libft/sources/ft_atoi.s"
 	@echo "... libft/sources/ft_bzero.o"
 	@echo "... libft/sources/ft_bzero.i"
 	@echo "... libft/sources/ft_bzero.s"
+	@echo "... libft/sources/ft_isdigit.o"
+	@echo "... libft/sources/ft_isdigit.i"
+	@echo "... libft/sources/ft_isdigit.s"
+	@echo "... libft/sources/ft_isspace.o"
+	@echo "... libft/sources/ft_isspace.i"
+	@echo "... libft/sources/ft_isspace.s"
 	@echo "... libft/sources/ft_memdel.o"
 	@echo "... libft/sources/ft_memdel.i"
 	@echo "... libft/sources/ft_memdel.s"
@@ -1059,9 +1122,6 @@ help:
 	@echo "... libft/sources/get_next_line.o"
 	@echo "... libft/sources/get_next_line.i"
 	@echo "... libft/sources/get_next_line.s"
-	@echo "... sources/checker.o"
-	@echo "... sources/checker.i"
-	@echo "... sources/checker.s"
 	@echo "... sources/insertion_sort.o"
 	@echo "... sources/insertion_sort.i"
 	@echo "... sources/insertion_sort.s"

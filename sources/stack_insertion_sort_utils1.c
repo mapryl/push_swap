@@ -22,7 +22,7 @@ t_distance	distance_to(t_stack *stack, int val)
 	size = stack_size(stack);
 	pos = size - find_in_array(stack->stack_vals, size, val) - 1;
 	if (pos == -1)
-		error("distance_to value not found");
+		error("Error\n");
 	result.dir = (pos > size / 2) ? DIRECTION_DOWN : DIRECTION_UP;
 	result.val = (pos > size / 2) ? size - pos : pos;
 	return (result);
@@ -39,9 +39,9 @@ int			distance_between(t_stack *stack, int val1, int val2)
 	pos1 = size - find_in_array(stack->stack_vals, size, val1) - 1;
 	pos2 = size - find_in_array(stack->stack_vals, size, val2) - 1;
 	if (pos1 == -1)
-		error("distance_to value not found");
+		error("Error\n");
 	if (pos2 == -1)
-		error("distance_to value not found");
+		error("Error\n");
 	dist = abs(pos1 - pos2);
 	return ((dist > size / 2) ? size - dist : dist);
 }

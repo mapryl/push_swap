@@ -84,7 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/ft_atoi.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/ft_isdigit.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/ft_isspace.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c">
@@ -118,9 +127,6 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/mapryl/Desktop/push_swap/sources/checker.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mapryl/Desktop/push_swap/sources/insertion_sort.c">

@@ -30,7 +30,7 @@ void	stack_init(t_stack *stack, int size, int *vals)
 void	stack_push(t_stack *stack, int val)
 {
 	if (stack->cur_ptr == stack->size - 1)
-		error("stack overflow");
+		error("Error\n");
 	stack->stack_vals[++stack->cur_ptr] = val;
 }
 
@@ -46,7 +46,7 @@ int		stack_pop(t_stack *stack, int *val)
 int		stack_peek(t_stack *stack)
 {
 	if (stack->cur_ptr == -1)
-		error("stack_peek error: stack is empty");
+		error("Error\n");
 	return (stack->stack_vals[stack->cur_ptr]);
 }
 

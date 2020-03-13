@@ -20,7 +20,7 @@ void	vector_create(t_vector *vec)
 	vec->capacity = 5;
 	vec->vals = (int*)malloc(sizeof(int) * vec->capacity);
 	if (!vec->vals)
-		error("vector_create");
+		error("Error\n");
 }
 
 void	vector_delete(t_vector *vec)
@@ -43,7 +43,7 @@ void	vector_add(t_vector *vec, int val)
 		vec->capacity *= 2;
 		new_arr = (int*)malloc(sizeof(int) * vec->capacity);
 		if (!new_arr)
-			error("vector_add");
+			error("Error\n");
 		i = 0;
 		while (i++ < vec->size - 1)
 			new_arr[i - 1] = vec->vals[i - 1];

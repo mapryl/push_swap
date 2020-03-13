@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/mapryl/Desktop/push_swap/libft/sources/ft_atoi.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o"
+  "/Users/mapryl/Desktop/push_swap/libft/sources/ft_isdigit.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o"
+  "/Users/mapryl/Desktop/push_swap/libft/sources/ft_isspace.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_putchar.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_putnbr.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o"
@@ -16,7 +19,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_strlen.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/ft_strnew.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o"
   "/Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o"
-  "/Users/mapryl/Desktop/push_swap/sources/checker.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/checker.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/insertion_sort.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/operation_list.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_list.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/parse.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parse.c.o"

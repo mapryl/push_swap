@@ -18,7 +18,7 @@ int		stack_create(t_stack *stack, int size)
 {
 	stack->stack_vals = (int*)malloc(size * sizeof(int));
 	if (!stack->stack_vals)
-		error("stack_create");
+		error("Error\n");
 	stack->cur_ptr = -1;
 	stack->size = size;
 	return (1);
@@ -36,7 +36,7 @@ void	stack_copy(t_stack *dst_stack, const t_stack *src_stack)
 	int		i;
 
 	if (dst_stack->size != src_stack->size)
-		error("stack_copy stacks of different size shall not be copied");
+		error("Error\n");
 	dst_stack->cur_ptr = src_stack->cur_ptr;
 	i = 0;
 	while (i++ <= src_stack->cur_ptr)
