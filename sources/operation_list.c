@@ -14,16 +14,16 @@
 #include "operation_list.h"
 #include "utils.h"
 
-void	operation_list_create(operation_list_t *op_list)
+void	operation_list_create(t_operation_list *op_list)
 {
 	op_list->op = NULL;
 	op_list->size = 0;
 }
 
-void	operation_list_delete(operation_list_t *op_list)
+void	operation_list_delete(t_operation_list *op_list)
 {
-	operation_node_t	*cur;
-	operation_node_t	*next;
+	t_operation_node	*cur;
+	t_operation_node	*next;
 
 	cur = op_list->op;
 	while (cur)
@@ -36,12 +36,12 @@ void	operation_list_delete(operation_list_t *op_list)
 	op_list->op = NULL;
 }
 
-void	operation_list_add(operation_list_t *op_list, cmd_t cmd)
+void	operation_list_add(t_operation_list *op_list, t_cmd cmd)
 {
-	operation_node_t	*new_node;
-	operation_node_t	**cur;
+	t_operation_node	*new_node;
+	t_operation_node	**cur;
 
-	new_node = (operation_node_t*)malloc(sizeof(operation_node_t));
+	new_node = (t_operation_node*)malloc(sizeof(t_operation_node));
 	if (!new_node)
 		error("operation_list_add failed");
 	new_node->next = NULL;
@@ -55,10 +55,10 @@ void	operation_list_add(operation_list_t *op_list, cmd_t cmd)
 	++op_list->size;
 }
 
-void	operation_list_copy(operation_list_t *dst_list,
-		const operation_list_t *src_list)
+void	operation_list_copy(t_operation_list *dst_list,
+							const t_operation_list *src_list)
 {
-	operation_node_t	*cur;
+	t_operation_node	*cur;
 
 	operation_list_delete(dst_list);
 	cur = src_list->op;

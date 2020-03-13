@@ -51,7 +51,7 @@ int		find_max(int *arr, int size)
 	return (max);
 }
 
-cmd_t	get_cmd(const char *cmd)
+t_cmd	get_cmd(const char *cmd)
 {
 	if (ft_strcmp("sa", cmd) == 0)
 		return (CMD_SA);

@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include "utils.h"
 
-void	vector_create(vector_t *vec)
+void	vector_create(t_vector *vec)
 {
 	vec->size = 0;
 	vec->capacity = 5;
@@ -23,7 +23,7 @@ void	vector_create(vector_t *vec)
 		error("vector_create");
 }
 
-void	vector_delete(vector_t *vec)
+void	vector_delete(t_vector *vec)
 {
 	vec->size = 0;
 	vec->capacity = 0;
@@ -31,7 +31,7 @@ void	vector_delete(vector_t *vec)
 	vec->vals = NULL;
 }
 
-void	vector_add(vector_t *vec, int val)
+void	vector_add(t_vector *vec, int val)
 {
 	int		*new_arr;
 	int		i;
@@ -53,7 +53,7 @@ void	vector_add(vector_t *vec, int val)
 	}
 }
 
-int		vector_pop(vector_t *vec)
+int		vector_pop(t_vector *vec)
 {
 	if (vec->size > 0)
 		--vec->size;

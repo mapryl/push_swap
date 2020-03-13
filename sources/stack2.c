@@ -14,43 +14,43 @@
 #include "utils.h"
 #include <stdlib.h>
 
-void	stack_init(s_stack *stack, int size, int *vals)
+void	stack_init(t_stack *stack, int size, int *vals)
 {
 	int		i;
 
 	i = 0;
 	while (i < size)
 	{
-		stack->stackVals[i] = vals[size - i - 1];
+		stack->stack_vals[i] = vals[size - i - 1];
 		++i;
 	}
-	stack->curPtr = i - 1;
+	stack->cur_ptr = i - 1;
 }
 
-void	stack_push(s_stack *stack, int val)
+void	stack_push(t_stack *stack, int val)
 {
-	if (stack->curPtr == stack->size - 1)
+	if (stack->cur_ptr == stack->size - 1)
 		error("stack overflow");
-	stack->stackVals[++stack->curPtr] = val;
+	stack->stack_vals[++stack->cur_ptr] = val;
 }
 
-int		stack_pop(s_stack *stack, int *val)
+int		stack_pop(t_stack *stack, int *val)
 {
-	if (stack->curPtr == -1)
+	if (stack->cur_ptr == -1)
 		return (0);
-	*val = stack->stackVals[stack->curPtr--];
-	stack->stackVals[stack->curPtr + 1] = -1;
+	*val = stack->stack_vals[stack->cur_ptr--];
+	stack->stack_vals[stack->cur_ptr + 1] = -1;
 	return (1);
 }
 
-int		stack_peek(s_stack *stack)
+int		stack_peek(t_stack *stack)
 {
-	if (stack->curPtr == -1)
+	if (stack->cur_ptr == -1)
 		error("stack_peek error: stack is empty");
-	return (stack->stackVals[stack->curPtr]);
+	return (stack->stack_vals[stack->cur_ptr]);
 }
 
-int		stack_size(s_stack *stack)
+int		stack_size(t_stack *stack)
 {
-	return (stack->curPtr + 1);
+	return (stack->cur_ptr + 1);
 }

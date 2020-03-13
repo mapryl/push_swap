@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
   "CMakeFiles/push_swap.dir/sources/operation_list.c.o"
   "CMakeFiles/push_swap.dir/sources/parse.c.o"
+  "CMakeFiles/push_swap.dir/sources/push_swap.c.o"
   "CMakeFiles/push_swap.dir/sources/sort_utils.c.o"
   "CMakeFiles/push_swap.dir/sources/stack1.c.o"
   "CMakeFiles/push_swap.dir/sources/stack2.c.o"

@@ -50,9 +50,9 @@ void	print_array(int *array, int size)
 	ft_putchar('\n');
 }
 
-void	print_operations(operation_list_t *ops)
+void	print_operations(t_operation_list *ops)
 {
-	operation_node_t	*node;
+	t_operation_node	*node;
 	static const char	**cmds;
 
 	cmds[0] = "sa";
@@ -77,15 +77,15 @@ void	print_operations(operation_list_t *ops)
 	}
 }
 
-void	do_action(two_stacks_t *two_stacks, const char *cmd)
+void	do_action(t_two_stacks *two_stacks, const char *cmd)
 {
 	two_stacks_command(two_stacks, get_cmd(cmd));
 }
 
 int		main(int argc, char **argv)
 {
-	vector_t		*vec;
-	two_stacks_t	stacks;
+	t_vector		*vec;
+	t_two_stacks	stacks;
 
 	vec = parse(argc, argv);
 	if (has_duplicates(vec->vals, vec->size))

@@ -21,10 +21,10 @@
 
 int		main(int argc, char **argv)
 {
-	vector_t		*vec;
+	t_vector		*vec;
 	char			*line;
 	int				sort_result;
-	two_stacks_t	stacks;
+	t_two_stacks	stacks;
 
 	vec = parse(argc, argv);
 	if (has_duplicates(vec->vals, vec->size))
@@ -36,7 +36,7 @@ int		main(int argc, char **argv)
 		two_stacks_command(&stacks, get_cmd(line));
 		free(line);
 	}
-	sort_result = is_sorted(stacks.a.stackVals, stack_size(&stacks.a));
+	sort_result = is_sorted(stacks.a.stack_vals, stack_size(&stacks.a));
 	if ((sort_result == ORDER_DESCEND || sort_result == ORDER_NOT_DEFINED) &&
 			stack_size(&stacks.b) == 0)
 		write(1, "OK\n", 3);

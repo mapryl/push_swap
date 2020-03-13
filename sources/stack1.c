@@ -14,67 +14,67 @@
 #include "utils.h"
 #include <stdlib.h>
 
-int		stack_create(s_stack *stack, int size)
+int		stack_create(t_stack *stack, int size)
 {
-	stack->stackVals = (int*)malloc(size * sizeof(int));
-	if (!stack->stackVals)
+	stack->stack_vals = (int*)malloc(size * sizeof(int));
+	if (!stack->stack_vals)
 		error("stack_create");
-	stack->curPtr = -1;
+	stack->cur_ptr = -1;
 	stack->size = size;
 	return (1);
 }
 
-void	stack_delete(s_stack *stack)
+void	stack_delete(t_stack *stack)
 {
 	stack->size = 0;
-	stack->curPtr = -1;
-	free(stack->stackVals);
+	stack->cur_ptr = -1;
+	free(stack->stack_vals);
 }
 
-void	stack_copy(s_stack *dst_stack, const s_stack *src_stack)
+void	stack_copy(t_stack *dst_stack, const t_stack *src_stack)
 {
 	int		i;
 
 	if (dst_stack->size != src_stack->size)
 		error("stack_copy stacks of different size shall not be copied");
-	dst_stack->curPtr = src_stack->curPtr;
+	dst_stack->cur_ptr = src_stack->cur_ptr;
 	i = 0;
-	while (i++ <= src_stack->curPtr)
-		dst_stack->stackVals[i - 1] = src_stack->stackVals[i - 1];
+	while (i++ <= src_stack->cur_ptr)
+		dst_stack->stack_vals[i - 1] = src_stack->stack_vals[i - 1];
 }
 
-void	stack_rotate_up(s_stack *stack)
+void	stack_rotate_up(t_stack *stack)
 {
 	int		i;
 	int		first;
 
-	i = stack->curPtr;
+	i = stack->cur_ptr;
 	if (i < 1)
 		return ;
-	first = stack->stackVals[i];
+	first = stack->stack_vals[i];
 	while (i)
 	{
-		stack->stackVals[i] = stack->stackVals[i - 1];
+		stack->stack_vals[i] = stack->stack_vals[i - 1];
 		--i;
 	}
-	stack->stackVals[0] = first;
+	stack->stack_vals[0] = first;
 }
 
-void	stack_rotate_down(s_stack *stack)
+void	stack_rotate_down(t_stack *stack)
 {
 	int		cur_size;
 	int		last;
 	int		i;
 
-	cur_size = stack->curPtr;
+	cur_size = stack->cur_ptr;
 	if (cur_size < 1)
 		return ;
-	last = stack->stackVals[0];
+	last = stack->stack_vals[0];
 	i = 1;
 	while (i <= cur_size)
 	{
-		stack->stackVals[i - 1] = stack->stackVals[i];
+		stack->stack_vals[i - 1] = stack->stack_vals[i];
 		++i;
 	}
-	stack->stackVals[stack->curPtr] = last;
+	stack->stack_vals[stack->cur_ptr] = last;
 }

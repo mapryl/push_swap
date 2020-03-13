@@ -555,6 +555,33 @@ sources/parse.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse.c.s
 .PHONY : sources/parse.c.s
 
+sources/push_swap.o: sources/push_swap.c.o
+
+.PHONY : sources/push_swap.o
+
+# target to build an object file
+sources/push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.o
+.PHONY : sources/push_swap.c.o
+
+sources/push_swap.i: sources/push_swap.c.i
+
+.PHONY : sources/push_swap.i
+
+# target to preprocess a source file
+sources/push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.i
+.PHONY : sources/push_swap.c.i
+
+sources/push_swap.s: sources/push_swap.c.s
+
+.PHONY : sources/push_swap.s
+
+# target to generate assembly for a file
+sources/push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.s
+.PHONY : sources/push_swap.c.s
+
 sources/sort_utils.o: sources/sort_utils.c.o
 
 .PHONY : sources/sort_utils.o
@@ -1044,6 +1071,9 @@ help:
 	@echo "... sources/parse.o"
 	@echo "... sources/parse.i"
 	@echo "... sources/parse.s"
+	@echo "... sources/push_swap.o"
+	@echo "... sources/push_swap.i"
+	@echo "... sources/push_swap.s"
 	@echo "... sources/sort_utils.o"
 	@echo "... sources/sort_utils.i"
 	@echo "... sources/sort_utils.s"

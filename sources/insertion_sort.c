@@ -15,10 +15,10 @@
 #include "utils.h"
 #include "sort_utils.h"
 
-void	stack_insertion_sort(two_stacks_t *two_stacks)
+void	stack_insertion_sort(t_two_stacks *two_stacks)
 {
-	s_stack		*stack_a;
-	s_stack		*stack_b;
+	t_stack		*stack_a;
+	t_stack		*stack_b;
 	int			cur_elem;
 
 	stack_a = &two_stacks->a;
@@ -29,7 +29,7 @@ void	stack_insertion_sort(two_stacks_t *two_stacks)
 		rotate_to_elem(two_stacks, STACK_A, cur_elem);
 		insert_elem(two_stacks, cur_elem);
 	}
-	rotate_to_elem(two_stacks, STACK_B, find_max(stack_b->stackVals,
+	rotate_to_elem(two_stacks, STACK_B, find_max(stack_b->stack_vals,
 				stack_size(stack_b)));
 	while (stack_size(stack_b))
 		two_stacks_command(two_stacks, CMD_PA);

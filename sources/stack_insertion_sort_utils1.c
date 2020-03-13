@@ -13,14 +13,14 @@
 #include "stack_insertion_sort_utils.h"
 #include "utils.h"
 
-distance_t	distance_to(s_stack *stack, int val)
+t_distance	distance_to(t_stack *stack, int val)
 {
 	int			size;
 	int			pos;
-	distance_t	result;
+	t_distance	result;
 
 	size = stack_size(stack);
-	pos = size - find_in_array(stack->stackVals, size, val) - 1;
+	pos = size - find_in_array(stack->stack_vals, size, val) - 1;
 	if (pos == -1)
 		error("distance_to value not found");
 	result.dir = (pos > size / 2) ? DIRECTION_DOWN : DIRECTION_UP;
@@ -28,7 +28,7 @@ distance_t	distance_to(s_stack *stack, int val)
 	return (result);
 }
 
-int			distance_between(s_stack *stack, int val1, int val2)
+int			distance_between(t_stack *stack, int val1, int val2)
 {
 	int		size;
 	int		pos1;
@@ -36,8 +36,8 @@ int			distance_between(s_stack *stack, int val1, int val2)
 	int		dist;
 
 	size = stack_size(stack);
-	pos1 = size - find_in_array(stack->stackVals, size, val1) - 1;
-	pos2 = size - find_in_array(stack->stackVals, size, val2) - 1;
+	pos1 = size - find_in_array(stack->stack_vals, size, val1) - 1;
+	pos2 = size - find_in_array(stack->stack_vals, size, val2) - 1;
 	if (pos1 == -1)
 		error("distance_to value not found");
 	if (pos2 == -1)
@@ -51,7 +51,7 @@ int			idx_before(int pos, int size)
 	return ((pos > 0) ? pos - 1 : size - 1);
 }
 
-int			insert_elem_cost(two_stacks_t *two_stacks, int val)
+int			insert_elem_cost(t_two_stacks *two_stacks, int val)
 {
 	int		size;
 	int		*arr;
@@ -59,7 +59,7 @@ int			insert_elem_cost(two_stacks_t *two_stacks, int val)
 	int		pos;
 
 	size = stack_size(&two_stacks->b);
-	arr = two_stacks->b.stackVals;
+	arr = two_stacks->b.stack_vals;
 	if (size < 2)
 		return (size);
 	pos = -1;
@@ -79,7 +79,7 @@ int			insert_elem_cost(two_stacks_t *two_stacks, int val)
 	return (distance_to(&two_stacks->b, pos).val);
 }
 
-int			select_elem(two_stacks_t *two_stacks)
+int			select_elem(t_two_stacks *two_stacks)
 {
 	int		val;
 	int		moves;
@@ -92,7 +92,7 @@ int			select_elem(two_stacks_t *two_stacks)
 	i = 0;
 	while (i++ < stack_size(&two_stacks->a))
 	{
-		cur_val = two_stacks->a.stackVals[i - 1];
+		cur_val = two_stacks->a.stack_vals[i - 1];
 		cur_moves = distance_to(&two_stacks->a, cur_val).val +
 			insert_elem_cost(two_stacks, cur_val);
 		if (cur_moves < moves)

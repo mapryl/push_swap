@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mapryl/Desktop/push_swap/sources/insertion_sort.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/operation_list.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_list.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/parse.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parse.c.o"
+  "/Users/mapryl/Desktop/push_swap/sources/push_swap.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/push_swap.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/sort_utils.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/sort_utils.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/stack1.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/stack1.c.o"
   "/Users/mapryl/Desktop/push_swap/sources/stack2.c" "/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/stack2.c.o"

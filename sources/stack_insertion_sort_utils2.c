@@ -14,12 +14,12 @@
 #include "utils.h"
 #include "sort_utils.h"
 
-void	rotate_to_elem(two_stacks_t *two_stacks, int is_stack_a, int val)
+void	rotate_to_elem(t_two_stacks *two_stacks, int is_stack_a, int val)
 {
-	s_stack		*stack;
-	distance_t	dist;
+	t_stack		*stack;
+	t_distance	dist;
 	int			i;
-	cmd_t		cmd;
+	t_cmd		cmd;
 
 	stack = (is_stack_a) ? &two_stacks->a : &two_stacks->b;
 	dist = distance_to(stack, val);
@@ -33,13 +33,13 @@ void	rotate_to_elem(two_stacks_t *two_stacks, int is_stack_a, int val)
 	}
 }
 
-void	insert_with_rotation(two_stacks_t *two_stacks, int val, int size)
+void	insert_with_rotation(t_two_stacks *two_stacks, int val, int size)
 {
 	int		*arr;
 	int		i;
 	int		pos;
 
-	arr = two_stacks->b.stackVals;
+	arr = two_stacks->b.stack_vals;
 	pos = -1;
 	i = 0;
 	while (i++ < size)
@@ -58,13 +58,13 @@ void	insert_with_rotation(two_stacks_t *two_stacks, int val, int size)
 	two_stacks_command(two_stacks, CMD_PB);
 }
 
-void	insert_elem(two_stacks_t *two_stacks, int val)
+void	insert_elem(t_two_stacks *two_stacks, int val)
 {
 	int		size;
 	int		*arr;
 
 	size = stack_size(&two_stacks->b);
-	arr = two_stacks->b.stackVals;
+	arr = two_stacks->b.stack_vals;
 	if (size == 0)
 		two_stacks_command(two_stacks, CMD_PB);
 	else if (size == 1)

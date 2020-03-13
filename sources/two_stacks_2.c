@@ -14,11 +14,11 @@
 #include "two_stacks.h"
 #include "utils.h"
 
-void	two_stacks_command_sa(two_stacks_t *two_stacks)
+void	two_stacks_command_sa(t_two_stacks *two_stacks)
 {
 	int		a1;
 	int		a2;
-	s_stack	*stack_a;
+	t_stack	*stack_a;
 
 	stack_a = &two_stacks->a;
 	if (stack_size(stack_a) < 2)
@@ -29,9 +29,9 @@ void	two_stacks_command_sa(two_stacks_t *two_stacks)
 	stack_push(stack_a, a2);
 }
 
-void	two_stacks_command_sb(two_stacks_t *two_stacks)
+void	two_stacks_command_sb(t_two_stacks *two_stacks)
 {
-	s_stack	*stack_b;
+	t_stack	*stack_b;
 	int		b1;
 	int		b2;
 
@@ -44,16 +44,16 @@ void	two_stacks_command_sb(two_stacks_t *two_stacks)
 	stack_push(stack_b, b2);
 }
 
-void	two_stacks_command_ss(two_stacks_t *two_stacks)
+void	two_stacks_command_ss(t_two_stacks *two_stacks)
 {
 	two_stacks_command_sa(two_stacks);
 	two_stacks_command_sb(two_stacks);
 }
 
-void	two_stacks_command_pa(two_stacks_t *two_stacks)
+void	two_stacks_command_pa(t_two_stacks *two_stacks)
 {
-	s_stack	*stack_b;
-	s_stack	*stack_a;
+	t_stack	*stack_b;
+	t_stack	*stack_a;
 	int		a;
 
 	stack_b = &two_stacks->b;
@@ -62,10 +62,10 @@ void	two_stacks_command_pa(two_stacks_t *two_stacks)
 		stack_push(stack_a, a);
 }
 
-void	two_stacks_command_pb(two_stacks_t *two_stacks)
+void	two_stacks_command_pb(t_two_stacks *two_stacks)
 {
-	s_stack	*stack_b;
-	s_stack	*stack_a;
+	t_stack	*stack_b;
+	t_stack	*stack_a;
 	int		b;
 
 	stack_b = &two_stacks->b;

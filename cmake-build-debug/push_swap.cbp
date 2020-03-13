@@ -132,6 +132,9 @@
 		<Unit filename="/Users/mapryl/Desktop/push_swap/sources/parse.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/mapryl/Desktop/push_swap/sources/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/mapryl/Desktop/push_swap/sources/sort_utils.c">
 			<Option target="push_swap"/>
 		</Unit>

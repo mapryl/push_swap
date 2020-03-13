@@ -14,13 +14,13 @@
 #include "two_stacks.h"
 #include "utils.h"
 
-void	two_stacks_command_rrr(two_stacks_t *two_stacks)
+void	two_stacks_command_rrr(t_two_stacks *two_stacks)
 {
 	two_stacks_command_rra(two_stacks);
 	two_stacks_command_rrb(two_stacks);
 }
 
-void	two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd)
+void	two_stacks_rest_command(t_two_stacks *two_stacks, t_cmd cmd)
 {
 	if (cmd == CMD_PB)
 		two_stacks_command_pb(two_stacks);
@@ -38,7 +38,7 @@ void	two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd)
 		two_stacks_command_rrr(two_stacks);
 }
 
-void	two_stacks_command(two_stacks_t *two_stacks, cmd_t cmd)
+void	two_stacks_command(t_two_stacks *two_stacks, t_cmd cmd)
 {
 	if (cmd == CMD_SA)
 		two_stacks_command_sa(two_stacks);

@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include "libft.h"
 
-void		populate(const char *str, const char *delims, vector_t *vec)
+void		populate(const char *str, const char *delims, t_vector *vec)
 {
 	const char	*beg;
 
@@ -34,11 +34,11 @@ void		populate(const char *str, const char *delims, vector_t *vec)
 		vector_add(vec, as_int(beg, str - beg));
 }
 
-vector_t	*parse_string(const char *str)
+t_vector	*parse_string(const char *str)
 {
-	vector_t *vec;
+	t_vector *vec;
 
-	vec = (vector_t*)malloc(sizeof(vector_t));
+	vec = (t_vector*)malloc(sizeof(t_vector));
 	if (!vec)
 		error("parse_string");
 	vector_create(vec);
@@ -46,12 +46,12 @@ vector_t	*parse_string(const char *str)
 	return (vec);
 }
 
-vector_t	*parse_many_strings(int argc, char **argv)
+t_vector	*parse_many_strings(int argc, char **argv)
 {
 	int			i;
-	vector_t	*vec;
+	t_vector	*vec;
 
-	vec = (vector_t*)malloc(sizeof(vector_t));
+	vec = (t_vector*)malloc(sizeof(t_vector));
 	if (!vec)
 		error("parse_string");
 	vector_create(vec);
@@ -64,7 +64,7 @@ vector_t	*parse_many_strings(int argc, char **argv)
 	return (vec);
 }
 
-vector_t	*parse(int argc, char **argv)
+t_vector	*parse(int argc, char **argv)
 {
 	if (argc < 2)
 	{
