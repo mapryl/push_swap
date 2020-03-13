@@ -1,31 +1,48 @@
-#ifndef __TWO_STACKS_H__
-#define __TWO_STACKS_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   two_stacks.h                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 17:51:11 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 18:06:31 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "stack.h"
-#include "operation_list.h"
+#ifndef TWO_STACKS_H
+# define TWO_STACKS_H
 
-typedef struct {
-	s_stack a;
-	s_stack b;
-	operation_list_t op_list;
-} two_stacks_t;
+# include "stack.h"
+# include "operation_list.h"
 
-void two_stacks_create(two_stacks_t* two_stacks, int size);
-void two_stacks_init(two_stacks_t *two_stacks, int *vals, int size);
-void two_stacks_delete(two_stacks_t* two_stacks);
-void two_stacks_copy(two_stacks_t *dst_stacks, two_stacks_t *src_stacks);
-void two_stacks_command_sa(two_stacks_t* twoStacks);
-void two_stacks_command_sb(two_stacks_t* twoStacks);
-void two_stacks_command_ss(two_stacks_t* twoStacks);
-void two_stacks_command_pa(two_stacks_t* twoStacks);
-void two_stacks_command_pb(two_stacks_t* twoStacks);
-void two_stacks_command_ra(two_stacks_t* twoStacks);
-void two_stacks_command_rb(two_stacks_t* twoStacks);
-void two_stacks_command_rr(two_stacks_t* twoStacks);
-void two_stacks_command_rra(two_stacks_t* twoStacks);
-void two_stacks_command_rrb(two_stacks_t* twoStacks);
-void two_stacks_command_rrr(two_stacks_t* twoStacks);
-void two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd);
-void two_stacks_command(two_stacks_t* two_stacks, cmd_t cmd);
+typedef struct			s_two_stacks
+{
+	t_stack				a;
+	t_stack				b;
+	t_operation_list	op_list;
+}						t_two_stacks;
+
+void					two_stacks_create(t_two_stacks *two_stacks, int size);
+void					two_stacks_init(t_two_stacks *two_stacks, int *vals,
+		int size);
+void					two_stacks_delete(t_two_stacks *two_stacks);
+void					two_stacks_copy(t_two_stacks *dst_stacks,
+		t_two_stacks *src_stacks);
+void					two_stacks_command_sa(t_two_stacks *two_stacks);
+void					two_stacks_command_sb(t_two_stacks *two_stacks);
+void					two_stacks_command_ss(t_two_stacks *two_stacks);
+void					two_stacks_command_pa(t_two_stacks *two_stacks);
+void					two_stacks_command_pb(t_two_stacks *two_stacks);
+void					two_stacks_command_ra(t_two_stacks *two_stacks);
+void					two_stacks_command_rb(t_two_stacks *two_stacks);
+void					two_stacks_command_rr(t_two_stacks *two_stacks);
+void					two_stacks_command_rra(t_two_stacks *two_stacks);
+void					two_stacks_command_rrb(t_two_stacks *two_stacks);
+void					two_stacks_command_rrr(t_two_stacks *two_stacks);
+void					two_stacks_rest_command(t_two_stacks *two_stacks,
+												t_cmd cmd);
+void					two_stacks_command(t_two_stacks *two_stacks,
+		t_cmd cmd);
 
 #endif

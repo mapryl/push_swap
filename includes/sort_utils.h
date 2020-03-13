@@ -1,5 +1,17 @@
-#ifndef __SORT_UTILS_H__
-#define __SORT_UTILS_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   sort_utils.h                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 17:42:54 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 17:43:55 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef SORT_UTILS_H
+# define SORT_UTILS_H
 
 # define ORDER_NOT_DEFINED 100
 # define ORDER_DESCEND (-1)
@@ -11,10 +23,10 @@
 # define DESCENDING_ORDER 1
 # define ASCENDING_ORDER 0
 
-int is_sorted(int* array, int size);
-void merge(int* array, int lo, int mid, int hi, int* aux);
-void merge_sort_impl(int* array, int lo, int hi, int* aux);
-void merge_sort(int* array, int size);
-int middle_val(int* array, int size);
+int		is_sorted(int *array, int size);
+void	merge(int *array, int lo, int mid, int hi, int *aux);
+void	merge_sort_impl(int *array, int lo, int hi, int *aux);
+void	merge_sort(int *array, int size);
+int		middle_val(int *array, int size);
 
 #endif

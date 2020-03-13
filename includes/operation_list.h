@@ -1,23 +1,36 @@
-#ifndef __OPERATION_LIST_H__
-#define __OPERATION_LIST_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   operation_list.h                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 17:34:25 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 17:42:00 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "two_stacks_operation.h"
+#ifndef OPERATION_LIST_H
+# define OPERATION_LIST_H
 
-typedef struct operation_node
+# include "two_stacks_operation.h"
+
+typedef struct	s_operation_node
 {
-	cmd_t cmd;
-	struct operation_node *next;
-} operation_node_t;
+	t_cmd					cmd;
+	struct s_operation_node	*next;
+}				t_operation_node;
 
-typedef struct
+typedef struct	s_operation_list
 {
-	operation_node_t *op;
-	int size;
-} operation_list_t;
+	t_operation_node		*op;
+	int						size;
+}				t_operation_list;
 
-void operation_list_create(operation_list_t *op_list);
-void operation_list_delete(operation_list_t *op_list);
-void operation_list_add(operation_list_t *op_list, cmd_t cmd);
-void operation_list_copy(operation_list_t *dst_list, const operation_list_t *src_list);
+void			operation_list_create(t_operation_list *op_list);
+void			operation_list_delete(t_operation_list *op_list);
+void			operation_list_add(t_operation_list *op_list, t_cmd cmd);
+void			operation_list_copy(t_operation_list *dst_list,
+							const t_operation_list *src_list);
 
 #endif

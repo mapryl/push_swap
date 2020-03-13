@@ -1,27 +1,39 @@
-#ifndef __STACK_INSERTION_SORT_UTILS_H__
-#define __STACK_INSERTION_SORT_UTILS_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   stack_insertion_sort_utils.h                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 17:47:43 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 17:49:38 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "two_stacks.h"
+#ifndef STACK_INSERTION_SORT_UTILS_H
+# define STACK_INSERTION_SORT_UTILS_H
+
+# include "two_stacks.h"
 
 typedef enum
 {
 	DIRECTION_UP,
 	DIRECTION_DOWN,
-} dir_t;
+}	t_dir;
 
 typedef struct
 {
-	int val;
-	dir_t dir;
-} distance_t;
+	int		val;
+	t_dir	dir;
+}			t_distance;
 
-distance_t distance_to(s_stack* stack, int val);
-int distance_between(s_stack* stack, int val1, int val2);
-int idx_before(int pos, int size);
-int insert_elem_cost(two_stacks_t *two_stacks, int val);
-int select_elem(two_stacks_t *two_stacks);
-void rotate_to_elem(two_stacks_t* two_stacks, int is_stack_a, int val);
-void insert_with_rotation(two_stacks_t *two_stacks, int val, int size);
-void insert_elem(two_stacks_t *two_stacks, int val);
+t_distance	distance_to(t_stack *stack, int val);
+int			distance_between(t_stack *stack, int val1, int val2);
+int			idx_before(int pos, int size);
+int			insert_elem_cost(t_two_stacks *two_stacks, int val);
+int			select_elem(t_two_stacks *two_stacks);
+void		rotate_to_elem(t_two_stacks *two_stacks, int is_stack_a, int val);
+void		insert_with_rotation(t_two_stacks *two_stacks, int val, int size);
+void		insert_elem(t_two_stacks *two_stacks, int val);
 
 #endif

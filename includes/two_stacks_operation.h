@@ -1,7 +1,20 @@
-#ifndef __TWO_STACK_OPERATION_H__
-#define __TWO_STACK_OPERATION_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   two_stacks_operation.h                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 18:04:58 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 18:06:16 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-typedef enum {
+#ifndef TWO_STACKS_OPERATION_H
+# define TWO_STACKS_OPERATION_H
+
+typedef enum
+{
 	CMD_NO_OP,
 	CMD_SA,
 	CMD_SB,
@@ -14,6 +27,6 @@ typedef enum {
 	CMD_RRA,
 	CMD_RRB,
 	CMD_RRR
-} cmd_t;
+}	t_cmd;
 
 #endif

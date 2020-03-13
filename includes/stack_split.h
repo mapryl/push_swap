@@ -1,9 +1,22 @@
-#ifndef __STACK_SPLIT_H__
-#define __STACK_SPLIT_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   stack_split.h                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 18:04:22 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 18:04:44 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "two_stacks.h"
+#ifndef STACK_SPLIT_H
+# define STACK_SPLIT_H
 
-void stack_split(two_stacks_t* two_stacks, int is_stack_a, int descending_order);
-void stack_partition(two_stacks_t* two_stacks);
+# include "two_stacks.h"
+
+void	stack_split(t_two_stacks *two_stacks, int is_stack_a,
+		int descending_order);
+void	stack_partition(t_two_stacks *two_stacks);
 
 #endif

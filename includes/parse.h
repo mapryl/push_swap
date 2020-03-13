@@ -1,8 +1,20 @@
-#ifndef __PARSE_H__
-#define __PARSE_H__
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 17:42:06 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 17:42:46 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "vector.h"
+#ifndef PARSE_H
+# define PARSE_H
 
-vector_t *parse(int argc, char* argv[]);
+# include "vector.h"
 
-#endif 
+t_vector *parse(int argc, char **argv);
+
+#endif
