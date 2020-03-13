@@ -1,14 +1,26 @@
-#include <stdlib.h>
-#include "../includes/two_stacks.h"
-#include "../includes/utils.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   two_stacks_4.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 16:54:55 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 16:55:57 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void two_stacks_command_rrr(two_stacks_t* twoStacks)
+#include <stdlib.h>
+#include "two_stacks.h"
+#include "utils.h"
+
+void	two_stacks_command_rrr(two_stacks_t *two_stacks)
 {
-	two_stacks_command_rra(twoStacks);
-	two_stacks_command_rrb(twoStacks);
+	two_stacks_command_rra(two_stacks);
+	two_stacks_command_rrb(two_stacks);
 }
 
-void two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd)
+void	two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd)
 {
 	if (cmd == CMD_PB)
 		two_stacks_command_pb(two_stacks);
@@ -26,7 +38,7 @@ void two_stacks_rest_command(two_stacks_t *two_stacks, cmd_t cmd)
 		two_stacks_command_rrr(two_stacks);
 }
 
-void two_stacks_command(two_stacks_t* two_stacks, cmd_t cmd)
+void	two_stacks_command(two_stacks_t *two_stacks, cmd_t cmd)
 {
 	if (cmd == CMD_SA)
 		two_stacks_command_sa(two_stacks);
@@ -38,6 +50,5 @@ void two_stacks_command(two_stacks_t* two_stacks, cmd_t cmd)
 		two_stacks_command_pa(two_stacks);
 	else
 		two_stacks_rest_command(two_stacks, cmd);
-
 	operation_list_add(&two_stacks->op_list, cmd);
 }

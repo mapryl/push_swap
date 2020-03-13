@@ -5,8 +5,8 @@
 #include "operation_list.h"
 
 typedef struct {
-	stack_t a;
-	stack_t b;
+	s_stack a;
+	s_stack b;
 	operation_list_t op_list;
 } two_stacks_t;
 

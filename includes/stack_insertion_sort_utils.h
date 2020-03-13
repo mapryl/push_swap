@@ -15,8 +15,8 @@ typedef struct
 	dir_t dir;
 } distance_t;
 
-distance_t distance_to(stack_t* stack, int val);
-int distance_between(stack_t* stack, int val1, int val2);
+distance_t distance_to(s_stack* stack, int val);
+int distance_between(s_stack* stack, int val1, int val2);
 int idx_before(int pos, int size);
 int insert_elem_cost(two_stacks_t *two_stacks, int val);
 int select_elem(two_stacks_t *two_stacks);

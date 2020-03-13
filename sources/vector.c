@@ -1,18 +1,29 @@
-#include "../includes/vector.h"
-#include <stdlib.h>
-#include "../includes/utils.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   vector.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 16:50:16 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 16:51:53 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void vector_create(vector_t *vec)
+#include "vector.h"
+#include <stdlib.h>
+#include "utils.h"
+
+void	vector_create(vector_t *vec)
 {
 	vec->size = 0;
 	vec->capacity = 5;
-	
-	vec->vals = (int*)malloc(sizeof(int)*vec->capacity);
+	vec->vals = (int*)malloc(sizeof(int) * vec->capacity);
 	if (!vec->vals)
 		error("vector_create");
 }
 
-void vector_delete(vector_t *vec)
+void	vector_delete(vector_t *vec)
 {
 	vec->size = 0;
 	vec->capacity = 0;
@@ -20,17 +31,17 @@ void vector_delete(vector_t *vec)
 	vec->vals = NULL;
 }
 
-void vector_add(vector_t *vec, int val)
+void	vector_add(vector_t *vec, int val)
 {
-	int *new_arr;
-	int i;
+	int		*new_arr;
+	int		i;
 
 	if (++vec->size <= vec->capacity)
 		vec->vals[vec->size - 1] = val;
 	else
 	{
 		vec->capacity *= 2;
-		new_arr = (int*)malloc(sizeof(int)*vec->capacity);
+		new_arr = (int*)malloc(sizeof(int) * vec->capacity);
 		if (!new_arr)
 			error("vector_add");
 		i = 0;
@@ -42,10 +53,9 @@ void vector_add(vector_t *vec, int val)
 	}
 }
 
-int vector_pop(vector_t *vec)
+int		vector_pop(vector_t *vec)
 {
 	if (vec->size > 0)
 		--vec->size;
-
-	return vec->vals[vec->size + 1];
+	return (vec->vals[vec->size + 1]);
 }

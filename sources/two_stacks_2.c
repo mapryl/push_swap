@@ -1,65 +1,75 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   two_stacks_2.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/13 16:58:18 by mapryl            #+#    #+#             */
+/*   Updated: 2020/03/13 17:05:22 by mapryl           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
-#include "../includes/two_stacks.h"
-#include "../includes/utils.h"
+#include "two_stacks.h"
+#include "utils.h"
 
-void two_stacks_command_sa(two_stacks_t* twoStacks)
+void	two_stacks_command_sa(two_stacks_t *two_stacks)
 {
-	stack_t* stackA = &twoStacks->a;
+	int		a1;
+	int		a2;
+	s_stack	*stack_a;
 
-	if (stack_size(stackA) < 2)
-		return;
-
-	int a1;
-	int a2;
-	stack_pop(stackA, &a1);
-	stack_pop(stackA, &a2);
-	stack_push(stackA, a1);
-	stack_push(stackA, a2);
+	stack_a = &two_stacks->a;
+	if (stack_size(stack_a) < 2)
+		return ;
+	stack_pop(stack_a, &a1);
+	stack_pop(stack_a, &a2);
+	stack_push(stack_a, a1);
+	stack_push(stack_a, a2);
 }
 
-void two_stacks_command_sb(two_stacks_t* twoStacks)
+void	two_stacks_command_sb(two_stacks_t *two_stacks)
 {
-	stack_t* stackB = &twoStacks->b;
+	s_stack	*stack_b;
+	int		b1;
+	int		b2;
 
-	if (stack_size(stackB) < 2)
-		return;
-
-	int b1;
-	int b2;
-	stack_pop(stackB, &b1);
-	stack_pop(stackB, &b2);
-	stack_push(stackB, b1);
-	stack_push(stackB, b2);
+	stack_b = &two_stacks->b;
+	if (stack_size(stack_b) < 2)
+		return ;
+	stack_pop(stack_b, &b1);
+	stack_pop(stack_b, &b2);
+	stack_push(stack_b, b1);
+	stack_push(stack_b, b2);
 }
 
-void two_stacks_command_ss(two_stacks_t* twoStacks)
+void	two_stacks_command_ss(two_stacks_t *two_stacks)
 {
-	two_stacks_command_sa(twoStacks);
-	two_stacks_command_sb(twoStacks);
+	two_stacks_command_sa(two_stacks);
+	two_stacks_command_sb(two_stacks);
 }
 
-void two_stacks_command_pa(two_stacks_t* twoStacks)
+void	two_stacks_command_pa(two_stacks_t *two_stacks)
 {
-	stack_t* stackB;
-	stack_t* stackA;
-	int a;
+	s_stack	*stack_b;
+	s_stack	*stack_a;
+	int		a;
 
-	stackB = &twoStacks->b;
-	stackA = &twoStacks->a;
-
-	if (stack_pop(stackB, &a))
-		stack_push(stackA, a);
+	stack_b = &two_stacks->b;
+	stack_a = &two_stacks->a;
+	if (stack_pop(stack_b, &a))
+		stack_push(stack_a, a);
 }
 
-void two_stacks_command_pb(two_stacks_t* twoStacks)
+void	two_stacks_command_pb(two_stacks_t *two_stacks)
 {
-	stack_t* stackB;
-	stack_t* stackA;
-	int b;
+	s_stack	*stack_b;
+	s_stack	*stack_a;
+	int		b;
 
-	stackB = &twoStacks->b;
-	stackA = &twoStacks->a;
-
-	if (stack_pop(stackA, &b))
-		stack_push(stackB, b);
+	stack_b = &two_stacks->b;
+	stack_a = &two_stacks->a;
+	if (stack_pop(stack_a, &b))
+		stack_push(stack_b, b);
 }

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alina/clionprojects/push_swap2
+CMAKE_SOURCE_DIR = /Users/mapryl/Desktop/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alina/clionprojects/push_swap2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mapryl/Desktop/push_swap/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/push_swap.dir/depend.make
@@ -59,419 +59,419 @@ include CMakeFiles/push_swap.dir/flags.make
 
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o: ../sources/insertion_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/insertion_sort.c.o   -c /home/alina/clionprojects/push_swap2/sources/insertion_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/sources/insertion_sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/insertion_sort.c.o   -c /Users/mapryl/Desktop/push_swap/sources/insertion_sort.c
 
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/insertion_sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/insertion_sort.c > CMakeFiles/push_swap.dir/sources/insertion_sort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/insertion_sort.c > CMakeFiles/push_swap.dir/sources/insertion_sort.c.i
 
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/insertion_sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/insertion_sort.c -o CMakeFiles/push_swap.dir/sources/insertion_sort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/insertion_sort.c -o CMakeFiles/push_swap.dir/sources/insertion_sort.c.s
 
 CMakeFiles/push_swap.dir/sources/operation_list.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/operation_list.c.o: ../sources/operation_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/sources/operation_list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/operation_list.c.o   -c /home/alina/clionprojects/push_swap2/sources/operation_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/sources/operation_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/operation_list.c.o   -c /Users/mapryl/Desktop/push_swap/sources/operation_list.c
 
 CMakeFiles/push_swap.dir/sources/operation_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/operation_list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/operation_list.c > CMakeFiles/push_swap.dir/sources/operation_list.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/operation_list.c > CMakeFiles/push_swap.dir/sources/operation_list.c.i
 
 CMakeFiles/push_swap.dir/sources/operation_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/operation_list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/operation_list.c -o CMakeFiles/push_swap.dir/sources/operation_list.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/operation_list.c -o CMakeFiles/push_swap.dir/sources/operation_list.c.s
 
 CMakeFiles/push_swap.dir/sources/parse.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/parse.c.o: ../sources/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/sources/parse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parse.c.o   -c /home/alina/clionprojects/push_swap2/sources/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/sources/parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parse.c.o   -c /Users/mapryl/Desktop/push_swap/sources/parse.c
 
 CMakeFiles/push_swap.dir/sources/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/parse.c > CMakeFiles/push_swap.dir/sources/parse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/parse.c > CMakeFiles/push_swap.dir/sources/parse.c.i
 
 CMakeFiles/push_swap.dir/sources/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/parse.c -o CMakeFiles/push_swap.dir/sources/parse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/parse.c -o CMakeFiles/push_swap.dir/sources/parse.c.s
 
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o: ../sources/sort_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/sources/sort_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/sort_utils.c.o   -c /home/alina/clionprojects/push_swap2/sources/sort_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/sources/sort_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/sort_utils.c.o   -c /Users/mapryl/Desktop/push_swap/sources/sort_utils.c
 
 CMakeFiles/push_swap.dir/sources/sort_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/sort_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/sort_utils.c > CMakeFiles/push_swap.dir/sources/sort_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/sort_utils.c > CMakeFiles/push_swap.dir/sources/sort_utils.c.i
 
 CMakeFiles/push_swap.dir/sources/sort_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/sort_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/sort_utils.c -o CMakeFiles/push_swap.dir/sources/sort_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/sort_utils.c -o CMakeFiles/push_swap.dir/sources/sort_utils.c.s
 
 CMakeFiles/push_swap.dir/sources/stack1.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack1.c.o: ../sources/stack1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sources/stack1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack1.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sources/stack1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack1.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack1.c
 
 CMakeFiles/push_swap.dir/sources/stack1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack1.c > CMakeFiles/push_swap.dir/sources/stack1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack1.c > CMakeFiles/push_swap.dir/sources/stack1.c.i
 
 CMakeFiles/push_swap.dir/sources/stack1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack1.c -o CMakeFiles/push_swap.dir/sources/stack1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack1.c -o CMakeFiles/push_swap.dir/sources/stack1.c.s
 
 CMakeFiles/push_swap.dir/sources/stack2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack2.c.o: ../sources/stack2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/sources/stack2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack2.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/sources/stack2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack2.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack2.c
 
 CMakeFiles/push_swap.dir/sources/stack2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack2.c > CMakeFiles/push_swap.dir/sources/stack2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack2.c > CMakeFiles/push_swap.dir/sources/stack2.c.i
 
 CMakeFiles/push_swap.dir/sources/stack2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack2.c -o CMakeFiles/push_swap.dir/sources/stack2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack2.c -o CMakeFiles/push_swap.dir/sources/stack2.c.s
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o: ../sources/stack_insertion_sort_utils1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils1.c
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils1.c > CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils1.c > CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.i
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils1.c -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils1.c -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.s
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o: ../sources/stack_insertion_sort_utils2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils2.c
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils2.c > CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils2.c > CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.i
 
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils2.c -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils2.c -o CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.s
 
 CMakeFiles/push_swap.dir/sources/stack_sort.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack_sort.c.o: ../sources/stack_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/sources/stack_sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_sort.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/sources/stack_sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_sort.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack_sort.c
 
 CMakeFiles/push_swap.dir/sources/stack_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack_sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack_sort.c > CMakeFiles/push_swap.dir/sources/stack_sort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack_sort.c > CMakeFiles/push_swap.dir/sources/stack_sort.c.i
 
 CMakeFiles/push_swap.dir/sources/stack_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack_sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack_sort.c -o CMakeFiles/push_swap.dir/sources/stack_sort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack_sort.c -o CMakeFiles/push_swap.dir/sources/stack_sort.c.s
 
 CMakeFiles/push_swap.dir/sources/stack_sort3.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack_sort3.c.o: ../sources/stack_sort3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/sources/stack_sort3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_sort3.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack_sort3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/sources/stack_sort3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_sort3.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack_sort3.c
 
 CMakeFiles/push_swap.dir/sources/stack_sort3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack_sort3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack_sort3.c > CMakeFiles/push_swap.dir/sources/stack_sort3.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack_sort3.c > CMakeFiles/push_swap.dir/sources/stack_sort3.c.i
 
 CMakeFiles/push_swap.dir/sources/stack_sort3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack_sort3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack_sort3.c -o CMakeFiles/push_swap.dir/sources/stack_sort3.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack_sort3.c -o CMakeFiles/push_swap.dir/sources/stack_sort3.c.s
 
 CMakeFiles/push_swap.dir/sources/stack_split.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/stack_split.c.o: ../sources/stack_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/sources/stack_split.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_split.c.o   -c /home/alina/clionprojects/push_swap2/sources/stack_split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/sources/stack_split.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/stack_split.c.o   -c /Users/mapryl/Desktop/push_swap/sources/stack_split.c
 
 CMakeFiles/push_swap.dir/sources/stack_split.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/stack_split.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/stack_split.c > CMakeFiles/push_swap.dir/sources/stack_split.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/stack_split.c > CMakeFiles/push_swap.dir/sources/stack_split.c.i
 
 CMakeFiles/push_swap.dir/sources/stack_split.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/stack_split.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/stack_split.c -o CMakeFiles/push_swap.dir/sources/stack_split.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/stack_split.c -o CMakeFiles/push_swap.dir/sources/stack_split.c.s
 
 CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o: ../sources/two_stacks_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o   -c /home/alina/clionprojects/push_swap2/sources/two_stacks_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o   -c /Users/mapryl/Desktop/push_swap/sources/two_stacks_1.c
 
 CMakeFiles/push_swap.dir/sources/two_stacks_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/two_stacks_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/two_stacks_1.c > CMakeFiles/push_swap.dir/sources/two_stacks_1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/two_stacks_1.c > CMakeFiles/push_swap.dir/sources/two_stacks_1.c.i
 
 CMakeFiles/push_swap.dir/sources/two_stacks_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/two_stacks_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/two_stacks_1.c -o CMakeFiles/push_swap.dir/sources/two_stacks_1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/two_stacks_1.c -o CMakeFiles/push_swap.dir/sources/two_stacks_1.c.s
 
 CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o: ../sources/two_stacks_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o   -c /home/alina/clionprojects/push_swap2/sources/two_stacks_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o   -c /Users/mapryl/Desktop/push_swap/sources/two_stacks_2.c
 
 CMakeFiles/push_swap.dir/sources/two_stacks_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/two_stacks_2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/two_stacks_2.c > CMakeFiles/push_swap.dir/sources/two_stacks_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/two_stacks_2.c > CMakeFiles/push_swap.dir/sources/two_stacks_2.c.i
 
 CMakeFiles/push_swap.dir/sources/two_stacks_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/two_stacks_2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/two_stacks_2.c -o CMakeFiles/push_swap.dir/sources/two_stacks_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/two_stacks_2.c -o CMakeFiles/push_swap.dir/sources/two_stacks_2.c.s
 
 CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o: ../sources/two_stacks_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o   -c /home/alina/clionprojects/push_swap2/sources/two_stacks_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o   -c /Users/mapryl/Desktop/push_swap/sources/two_stacks_3.c
 
 CMakeFiles/push_swap.dir/sources/two_stacks_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/two_stacks_3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/two_stacks_3.c > CMakeFiles/push_swap.dir/sources/two_stacks_3.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/two_stacks_3.c > CMakeFiles/push_swap.dir/sources/two_stacks_3.c.i
 
 CMakeFiles/push_swap.dir/sources/two_stacks_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/two_stacks_3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/two_stacks_3.c -o CMakeFiles/push_swap.dir/sources/two_stacks_3.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/two_stacks_3.c -o CMakeFiles/push_swap.dir/sources/two_stacks_3.c.s
 
 CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o: ../sources/two_stacks_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o   -c /home/alina/clionprojects/push_swap2/sources/two_stacks_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o   -c /Users/mapryl/Desktop/push_swap/sources/two_stacks_4.c
 
 CMakeFiles/push_swap.dir/sources/two_stacks_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/two_stacks_4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/two_stacks_4.c > CMakeFiles/push_swap.dir/sources/two_stacks_4.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/two_stacks_4.c > CMakeFiles/push_swap.dir/sources/two_stacks_4.c.i
 
 CMakeFiles/push_swap.dir/sources/two_stacks_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/two_stacks_4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/two_stacks_4.c -o CMakeFiles/push_swap.dir/sources/two_stacks_4.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/two_stacks_4.c -o CMakeFiles/push_swap.dir/sources/two_stacks_4.c.s
 
 CMakeFiles/push_swap.dir/sources/utils1.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/utils1.c.o: ../sources/utils1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap.dir/sources/utils1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils1.c.o   -c /home/alina/clionprojects/push_swap2/sources/utils1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap.dir/sources/utils1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils1.c.o   -c /Users/mapryl/Desktop/push_swap/sources/utils1.c
 
 CMakeFiles/push_swap.dir/sources/utils1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/utils1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/utils1.c > CMakeFiles/push_swap.dir/sources/utils1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/utils1.c > CMakeFiles/push_swap.dir/sources/utils1.c.i
 
 CMakeFiles/push_swap.dir/sources/utils1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/utils1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/utils1.c -o CMakeFiles/push_swap.dir/sources/utils1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/utils1.c -o CMakeFiles/push_swap.dir/sources/utils1.c.s
 
 CMakeFiles/push_swap.dir/sources/utils2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/utils2.c.o: ../sources/utils2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.dir/sources/utils2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils2.c.o   -c /home/alina/clionprojects/push_swap2/sources/utils2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.dir/sources/utils2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils2.c.o   -c /Users/mapryl/Desktop/push_swap/sources/utils2.c
 
 CMakeFiles/push_swap.dir/sources/utils2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/utils2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/utils2.c > CMakeFiles/push_swap.dir/sources/utils2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/utils2.c > CMakeFiles/push_swap.dir/sources/utils2.c.i
 
 CMakeFiles/push_swap.dir/sources/utils2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/utils2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/utils2.c -o CMakeFiles/push_swap.dir/sources/utils2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/utils2.c -o CMakeFiles/push_swap.dir/sources/utils2.c.s
 
 CMakeFiles/push_swap.dir/sources/utils3.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/utils3.c.o: ../sources/utils3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.dir/sources/utils3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils3.c.o   -c /home/alina/clionprojects/push_swap2/sources/utils3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.dir/sources/utils3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/utils3.c.o   -c /Users/mapryl/Desktop/push_swap/sources/utils3.c
 
 CMakeFiles/push_swap.dir/sources/utils3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/utils3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/utils3.c > CMakeFiles/push_swap.dir/sources/utils3.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/utils3.c > CMakeFiles/push_swap.dir/sources/utils3.c.i
 
 CMakeFiles/push_swap.dir/sources/utils3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/utils3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/utils3.c -o CMakeFiles/push_swap.dir/sources/utils3.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/utils3.c -o CMakeFiles/push_swap.dir/sources/utils3.c.s
 
 CMakeFiles/push_swap.dir/sources/vector.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/vector.c.o: ../sources/vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.dir/sources/vector.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/vector.c.o   -c /home/alina/clionprojects/push_swap2/sources/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.dir/sources/vector.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/vector.c.o   -c /Users/mapryl/Desktop/push_swap/sources/vector.c
 
 CMakeFiles/push_swap.dir/sources/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/vector.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/vector.c > CMakeFiles/push_swap.dir/sources/vector.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/vector.c > CMakeFiles/push_swap.dir/sources/vector.c.i
 
 CMakeFiles/push_swap.dir/sources/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/vector.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/vector.c -o CMakeFiles/push_swap.dir/sources/vector.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/vector.c -o CMakeFiles/push_swap.dir/sources/vector.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o: ../libft/sources/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_putstr.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_putstr.c > CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_putstr.c > CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_putstr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_putstr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o: ../libft/sources/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strlen.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strlen.c > CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strlen.c > CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strlen.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strlen.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o: ../libft/sources/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_putchar.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_putchar.c > CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_putchar.c > CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_putchar.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_putchar.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o: ../libft/sources/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_putnbr.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_putnbr.c > CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_putnbr.c > CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_putnbr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_putnbr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o: ../libft/sources/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strcmp.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strcmp.c > CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strcmp.c > CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strcmp.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strcmp.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o: ../libft/sources/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c
 
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c > CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c > CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c -o CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c -o CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o: ../libft/sources/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strnew.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strnew.c > CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strnew.c > CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strnew.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strnew.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o: ../libft/sources/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strjoin.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strjoin.c > CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strjoin.c > CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strjoin.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strjoin.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o: ../libft/sources/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strchr.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strchr.c > CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strchr.c > CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strchr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strchr.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o: ../libft/sources/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_strdup.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_strdup.c > CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_strdup.c > CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_strdup.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_strdup.c -o CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o: ../libft/sources/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_memdel.c > CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c > CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_memdel.c -o CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c -o CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.s
 
 CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o: ../libft/sources/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o   -c /Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c > CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c > CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.i
 
 CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c -o CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c -o CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s
 
 CMakeFiles/push_swap.dir/sources/checker.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/checker.c.o: ../sources/checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/sources/checker.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/checker.c.o   -c /home/alina/clionprojects/push_swap2/sources/checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/sources/checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/checker.c.o   -c /Users/mapryl/Desktop/push_swap/sources/checker.c
 
 CMakeFiles/push_swap.dir/sources/checker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/checker.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/checker.c > CMakeFiles/push_swap.dir/sources/checker.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mapryl/Desktop/push_swap/sources/checker.c > CMakeFiles/push_swap.dir/sources/checker.c.i
 
 CMakeFiles/push_swap.dir/sources/checker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/checker.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/checker.c -o CMakeFiles/push_swap.dir/sources/checker.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mapryl/Desktop/push_swap/sources/checker.c -o CMakeFiles/push_swap.dir/sources/checker.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -545,7 +545,7 @@ push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/checker.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -558,6 +558,6 @@ CMakeFiles/push_swap.dir/clean:
 .PHONY : CMakeFiles/push_swap.dir/clean
 
 CMakeFiles/push_swap.dir/depend:
-	cd /home/alina/clionprojects/push_swap2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alina/clionprojects/push_swap2 /home/alina/clionprojects/push_swap2 /home/alina/clionprojects/push_swap2/cmake-build-debug /home/alina/clionprojects/push_swap2/cmake-build-debug /home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mapryl/Desktop/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mapryl/Desktop/push_swap /Users/mapryl/Desktop/push_swap /Users/mapryl/Desktop/push_swap/cmake-build-debug /Users/mapryl/Desktop/push_swap/cmake-build-debug /Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/push_swap.dir/depend
 
