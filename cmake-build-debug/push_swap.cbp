@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alina/clionprojects/push_swap2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alina/clionprojects/push_swap2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap">
+				<Option output="/home/alina/clionprojects/push_swap2/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alina/clionprojects/push_swap2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alina/clionprojects/push_swap2/libft/includes"/>
+					<Add directory="/home/alina/clionprojects/push_swap2/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap/fast">
+				<Option output="/home/alina/clionprojects/push_swap2/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alina/clionprojects/push_swap2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alina/clionprojects/push_swap2/libft/includes"/>
+					<Add directory="/home/alina/clionprojects/push_swap2/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alina/clionprojects/push_swap2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alina/clionprojects/push_swap2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_memdel.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_putchar.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_putnbr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_putstr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strdup.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strjoin.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strlen.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/ft_strnew.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/checker.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/insertion_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/operation_list.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/parse.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/sort_utils.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack1.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils1.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack_sort3.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/stack_split.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/two_stacks_1.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/two_stacks_2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/two_stacks_3.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/two_stacks_4.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/utils1.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/utils2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/utils3.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/vector.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
