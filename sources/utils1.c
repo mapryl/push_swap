@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "utils.h"
 #include <stdlib.h>
-#include <unistd.h>
 #include "libft.h"
 
 void	error(const char *message)
@@ -41,14 +39,4 @@ int		*clone_array(int *array, int size)
 		++i;
 	}
 	return (new_arr);
-}
-
-int		mymin(int a, int b)
-{
-	return (a < b ? a : b);
-}
-
-int		mymax(int a, int b)
-{
-	return (a > b ? a : b);
 }

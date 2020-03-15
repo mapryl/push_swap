@@ -460,9 +460,22 @@ CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c -o CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.s
 
+CMakeFiles/push_swap.dir/sources/push_swap.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../sources/push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/sources/push_swap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/push_swap.c.o   -c /home/alina/clionprojects/push_swap2/sources/push_swap.c
+
+CMakeFiles/push_swap.dir/sources/push_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/push_swap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/push_swap.c > CMakeFiles/push_swap.dir/sources/push_swap.c.i
+
+CMakeFiles/push_swap.dir/sources/push_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/push_swap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/push_swap.c -o CMakeFiles/push_swap.dir/sources/push_swap.c.s
+
 CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o: ../libft/sources/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_atoi.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.i: cmake_force
@@ -475,7 +488,7 @@ CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o: ../libft/sources/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_isdigit.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o: ../libft/sources/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o   -c /home/alina/clionprojects/push_swap2/libft/sources/ft_isspace.c
 
 CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.i: cmake_force
@@ -498,19 +511,6 @@ CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.i: cmake_force
 CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/libft/sources/ft_isspace.c -o CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.s
-
-CMakeFiles/push_swap.dir/sources/checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/checker.c.o: ../sources/checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/sources/checker.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/checker.c.o   -c /home/alina/clionprojects/push_swap2/sources/checker.c
-
-CMakeFiles/push_swap.dir/sources/checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/checker.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alina/clionprojects/push_swap2/sources/checker.c > CMakeFiles/push_swap.dir/sources/checker.c.i
-
-CMakeFiles/push_swap.dir/sources/checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/checker.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alina/clionprojects/push_swap2/sources/checker.c -o CMakeFiles/push_swap.dir/sources/checker.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -545,10 +545,10 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o" \
 "CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o" \
 "CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o" \
+"CMakeFiles/push_swap.dir/sources/push_swap.c.o" \
 "CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o" \
 "CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o" \
-"CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o" \
-"CMakeFiles/push_swap.dir/sources/checker.c.o"
+"CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -584,10 +584,10 @@ push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/push_swap.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/checker.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable push_swap"

@@ -14,9 +14,11 @@ two_stacks_operation.h
 vector.h
 ../includes/vector.h
 
-../includes/sort_utils.h
-
 ../includes/stack.h
+
+../includes/stack_sort.h
+two_stacks.h
+../includes/two_stacks.h
 
 ../includes/two_stacks.h
 stack.h
@@ -52,21 +54,21 @@ unistd.h
 get_next_line.h
 ../libft/includes/get_next_line.h
 
-/home/alina/clionprojects/push_swap2/sources/checker.c
-vector.h
-/home/alina/clionprojects/push_swap2/sources/vector.h
-two_stacks.h
-/home/alina/clionprojects/push_swap2/sources/two_stacks.h
-unistd.h
--
+/home/alina/clionprojects/push_swap2/sources/push_swap.c
 stdlib.h
 -
-parse.h
-/home/alina/clionprojects/push_swap2/sources/parse.h
+stack_sort.h
+/home/alina/clionprojects/push_swap2/sources/stack_sort.h
 utils.h
 /home/alina/clionprojects/push_swap2/sources/utils.h
+parse.h
+/home/alina/clionprojects/push_swap2/sources/parse.h
 libft.h
 /home/alina/clionprojects/push_swap2/sources/libft.h
-sort_utils.h
-/home/alina/clionprojects/push_swap2/sources/sort_utils.h
+
+/home/alina/clionprojects/push_swap2/sources/utils1.c
+stdlib.h
+-
+libft.h
+/home/alina/clionprojects/push_swap2/sources/libft.h
 

@@ -127,9 +127,6 @@
 		<Unit filename="/home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/alina/clionprojects/push_swap2/sources/checker.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/home/alina/clionprojects/push_swap2/sources/insertion_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -137,6 +134,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/alina/clionprojects/push_swap2/sources/parse.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/alina/clionprojects/push_swap2/sources/push_swap.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/alina/clionprojects/push_swap2/sources/sort_utils.c">

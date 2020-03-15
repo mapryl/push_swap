@@ -38,30 +38,30 @@ int		is_sorted(int *array, int size)
 	return (sorted);
 }
 
-void	merge(int *array, int lo, int mid, int hi, int *aux)
+void	merge(t_merge_sort_input *input)
 {
 	int		i;
 	int		j;
 	int		k;
 
-	i = lo;
-	j = mid;
+	i = input->lo;
+	j = input->mid;
 	k = 0;
-	while (k < hi - lo)
+	while (k < input->hi - input->lo)
 	{
-		if (i >= mid)
-			aux[k++] = array[j++];
-		else if (j >= hi)
-			aux[k++] = array[i++];
-		else if (array[i] < array[j])
-			aux[k++] = array[i++];
+		if (i >= input->mid)
+			input->aux[k++] = input->array[j++];
+		else if (j >= input->hi)
+			input->aux[k++] = input->array[i++];
+		else if (input->array[i] < input->array[j])
+			input->aux[k++] = input->array[i++];
 		else
-			aux[k++] = array[j++];
+			input->aux[k++] = input->array[j++];
 	}
 	k = 0;
-	while (k < hi - lo)
+	while (k < input->hi - input->lo)
 	{
-		array[k + lo] = aux[k];
+		input->array[k + input->lo] = input->aux[k];
 		++k;
 	}
 }
@@ -69,13 +69,20 @@ void	merge(int *array, int lo, int mid, int hi, int *aux)
 void	merge_sort_impl(int *array, int lo, int hi, int *aux)
 {
 	int		mid;
+	t_merge_sort_input merge_input;
 
 	if (hi - lo < 2)
 		return ;
 	mid = (hi + lo) / 2;
 	merge_sort_impl(array, lo, mid, aux);
 	merge_sort_impl(array, mid, hi, aux);
-	merge(array, lo, mid, hi, aux);
+
+	merge_input.array = array;
+	merge_input.lo = lo;
+	merge_input.mid = mid;
+	merge_input.hi = hi;
+	merge_input.aux = aux;
+	merge(&merge_input);
 }
 
 void	merge_sort(int *array, int size)

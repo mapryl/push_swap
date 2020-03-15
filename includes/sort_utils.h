@@ -23,8 +23,17 @@
 # define DESCENDING_ORDER 1
 # define ASCENDING_ORDER 0
 
+typedef struct
+{
+	int *array;
+	int lo;
+	int mid;
+	int hi;
+	int *aux;
+} t_merge_sort_input;
+
 int		is_sorted(int *array, int size);
-void	merge(int *array, int lo, int mid, int hi, int *aux);
+void	merge(t_merge_sort_input *input);
 void	merge_sort_impl(int *array, int lo, int hi, int *aux);
 void	merge_sort(int *array, int size);
 int		middle_val(int *array, int size);

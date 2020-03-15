@@ -59,18 +59,6 @@ CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c
-CMakeFiles/push_swap.dir/sources/checker.c.o
- ../includes/operation_list.h
- ../includes/parse.h
- ../includes/sort_utils.h
- ../includes/stack.h
- ../includes/two_stacks.h
- ../includes/two_stacks_operation.h
- ../includes/utils.h
- ../includes/vector.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/sources/checker.c
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o
  ../includes/operation_list.h
  ../includes/sort_utils.h
@@ -94,6 +82,18 @@ CMakeFiles/push_swap.dir/sources/parse.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /home/alina/clionprojects/push_swap2/sources/parse.c
+CMakeFiles/push_swap.dir/sources/push_swap.c.o
+ ../includes/operation_list.h
+ ../includes/parse.h
+ ../includes/stack.h
+ ../includes/stack_sort.h
+ ../includes/two_stacks.h
+ ../includes/two_stacks_operation.h
+ ../includes/utils.h
+ ../includes/vector.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /home/alina/clionprojects/push_swap2/sources/push_swap.c
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o
  ../includes/sort_utils.h
  ../includes/two_stacks_operation.h
@@ -182,8 +182,6 @@ CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o
  ../includes/utils.h
  /home/alina/clionprojects/push_swap2/sources/two_stacks_4.c
 CMakeFiles/push_swap.dir/sources/utils1.c.o
- ../includes/two_stacks_operation.h
- ../includes/utils.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /home/alina/clionprojects/push_swap2/sources/utils1.c

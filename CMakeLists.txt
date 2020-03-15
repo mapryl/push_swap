@@ -38,9 +38,9 @@ add_executable(push_swap
         libft/sources/ft_strdup.c
         libft/sources/ft_memdel.c
         libft/sources/ft_bzero.c
-        # sources/push_swap.c
+        sources/push_swap.c
         libft/sources/ft_atoi.c
         libft/sources/ft_isdigit.c
         libft/sources/ft_isspace.c
-        sources/checker.c
+        # sources/checker.c
         )
