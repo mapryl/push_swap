@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 16:43:58 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/13 16:48:17 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/15 16:52:25 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,15 @@ int		chtoi(char ch)
 	return (0);
 }
 
+int		is_sign(char c, char c2)
+{
+	if ((c == '+' || c == '-') && c2 == '\0')
+		error("Error\n");
+	if (c == '+' || c == '-')
+		return (1);
+	return (0);
+}
+
 int		as_int(const char *term, int size)
 {
 	int		result;
@@ -32,9 +41,7 @@ int		as_int(const char *term, int size)
 	i = size - 1;
 	result = 0;
 	multiplier = 1;
-	sign = 0;
-	if (term[0] == '-' || term[0] == '+')
-		sign = 1;
+	sign = is_sign(term[0], term[1]);
 	while (i >= sign)
 	{
 		if (result > result + chtoi(term[i]) * multiplier)

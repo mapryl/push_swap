@@ -2,7 +2,7 @@ NAME_PS = push_swap
 NAME_CH = checker
 
 CC = gcc
-FLAGS = -Wall -Werror -Wextra -O3
+FLAGS = -Wall -Werror -Wextra
 LIBRARIES = -lft -L$(LIBFT_DIRECTORY)
 INCLUDES = -I$(HEADERS_DIRECTORY) -I$(LIBFT_HEADERS)
 

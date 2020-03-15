@@ -4,61 +4,61 @@
 CMakeFiles/push_swap.dir/libft/sources/ft_atoi.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_atoi.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_atoi.c
 CMakeFiles/push_swap.dir/libft/sources/ft_bzero.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_bzero.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_bzero.c
 CMakeFiles/push_swap.dir/libft/sources/ft_isdigit.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_isdigit.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_isdigit.c
 CMakeFiles/push_swap.dir/libft/sources/ft_isspace.c.o
- /home/alina/clionprojects/push_swap2/libft/sources/ft_isspace.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_isspace.c
 CMakeFiles/push_swap.dir/libft/sources/ft_memdel.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_memdel.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_memdel.c
 CMakeFiles/push_swap.dir/libft/sources/ft_putchar.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_putchar.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_putchar.c
 CMakeFiles/push_swap.dir/libft/sources/ft_putnbr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_putnbr.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_putnbr.c
 CMakeFiles/push_swap.dir/libft/sources/ft_putstr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_putstr.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_putstr.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strchr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strchr.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strchr.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strcmp.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strcmp.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strcmp.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strdup.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strdup.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strdup.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strjoin.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strjoin.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strjoin.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strlen.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strlen.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strlen.c
 CMakeFiles/push_swap.dir/libft/sources/ft_strnew.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/ft_strnew.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/ft_strnew.c
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/libft/sources/get_next_line.c
+ /Users/mapryl/Desktop/push_swap/libft/sources/get_next_line.c
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o
  ../includes/operation_list.h
  ../includes/sort_utils.h
@@ -68,12 +68,12 @@ CMakeFiles/push_swap.dir/sources/insertion_sort.c.o
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/insertion_sort.c
+ /Users/mapryl/Desktop/push_swap/sources/insertion_sort.c
 CMakeFiles/push_swap.dir/sources/operation_list.c.o
  ../includes/operation_list.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/operation_list.c
+ /Users/mapryl/Desktop/push_swap/sources/operation_list.c
 CMakeFiles/push_swap.dir/sources/parse.c.o
  ../includes/parse.h
  ../includes/two_stacks_operation.h
@@ -81,7 +81,7 @@ CMakeFiles/push_swap.dir/sources/parse.c.o
  ../includes/vector.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/sources/parse.c
+ /Users/mapryl/Desktop/push_swap/sources/parse.c
 CMakeFiles/push_swap.dir/sources/push_swap.c.o
  ../includes/operation_list.h
  ../includes/parse.h
@@ -93,22 +93,22 @@ CMakeFiles/push_swap.dir/sources/push_swap.c.o
  ../includes/vector.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/sources/push_swap.c
+ /Users/mapryl/Desktop/push_swap/sources/push_swap.c
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o
  ../includes/sort_utils.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/sort_utils.c
+ /Users/mapryl/Desktop/push_swap/sources/sort_utils.c
 CMakeFiles/push_swap.dir/sources/stack1.c.o
  ../includes/stack.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/stack1.c
+ /Users/mapryl/Desktop/push_swap/sources/stack1.c
 CMakeFiles/push_swap.dir/sources/stack2.c.o
  ../includes/stack.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/stack2.c
+ /Users/mapryl/Desktop/push_swap/sources/stack2.c
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o
  ../includes/operation_list.h
  ../includes/stack.h
@@ -116,7 +116,7 @@ CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils1.c.o
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils1.c
+ /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils1.c
 CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o
  ../includes/operation_list.h
  ../includes/sort_utils.h
@@ -125,7 +125,7 @@ CMakeFiles/push_swap.dir/sources/stack_insertion_sort_utils2.c.o
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/stack_insertion_sort_utils2.c
+ /Users/mapryl/Desktop/push_swap/sources/stack_insertion_sort_utils2.c
 CMakeFiles/push_swap.dir/sources/stack_sort.c.o
  ../includes/operation_list.h
  ../includes/sort_utils.h
@@ -136,7 +136,7 @@ CMakeFiles/push_swap.dir/sources/stack_sort.c.o
  ../includes/stack_split.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
- /home/alina/clionprojects/push_swap2/sources/stack_sort.c
+ /Users/mapryl/Desktop/push_swap/sources/stack_sort.c
 CMakeFiles/push_swap.dir/sources/stack_sort3.c.o
  ../includes/operation_list.h
  ../includes/stack.h
@@ -144,7 +144,7 @@ CMakeFiles/push_swap.dir/sources/stack_sort3.c.o
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/stack_sort3.c
+ /Users/mapryl/Desktop/push_swap/sources/stack_sort3.c
 CMakeFiles/push_swap.dir/sources/stack_split.c.o
  ../includes/operation_list.h
  ../includes/sort_utils.h
@@ -152,51 +152,51 @@ CMakeFiles/push_swap.dir/sources/stack_split.c.o
  ../includes/stack_split.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
- /home/alina/clionprojects/push_swap2/sources/stack_split.c
+ /Users/mapryl/Desktop/push_swap/sources/stack_split.c
 CMakeFiles/push_swap.dir/sources/two_stacks_1.c.o
  ../includes/operation_list.h
  ../includes/stack.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/two_stacks_1.c
+ /Users/mapryl/Desktop/push_swap/sources/two_stacks_1.c
 CMakeFiles/push_swap.dir/sources/two_stacks_2.c.o
  ../includes/operation_list.h
  ../includes/stack.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/two_stacks_2.c
+ /Users/mapryl/Desktop/push_swap/sources/two_stacks_2.c
 CMakeFiles/push_swap.dir/sources/two_stacks_3.c.o
  ../includes/operation_list.h
  ../includes/stack.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/two_stacks_3.c
+ /Users/mapryl/Desktop/push_swap/sources/two_stacks_3.c
 CMakeFiles/push_swap.dir/sources/two_stacks_4.c.o
  ../includes/operation_list.h
  ../includes/stack.h
  ../includes/two_stacks.h
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/two_stacks_4.c
+ /Users/mapryl/Desktop/push_swap/sources/two_stacks_4.c
 CMakeFiles/push_swap.dir/sources/utils1.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/sources/utils1.c
+ /Users/mapryl/Desktop/push_swap/sources/utils1.c
 CMakeFiles/push_swap.dir/sources/utils2.c.o
  ../includes/two_stacks_operation.h
  ../includes/utils.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /home/alina/clionprojects/push_swap2/sources/utils2.c
+ /Users/mapryl/Desktop/push_swap/sources/utils2.c
 CMakeFiles/push_swap.dir/sources/utils3.c.o
  ../includes/two_stacks_operation.h
  ../includes/utils.h
- /home/alina/clionprojects/push_swap2/sources/utils3.c
+ /Users/mapryl/Desktop/push_swap/sources/utils3.c
 CMakeFiles/push_swap.dir/sources/vector.c.o
  ../includes/two_stacks_operation.h
  ../includes/utils.h
  ../includes/vector.h
- /home/alina/clionprojects/push_swap2/sources/vector.c
+ /Users/mapryl/Desktop/push_swap/sources/vector.c

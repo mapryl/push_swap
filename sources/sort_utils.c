@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 16:34:20 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/13 17:21:43 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/15 16:40:14 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,15 +68,14 @@ void	merge(t_merge_sort_input *input)
 
 void	merge_sort_impl(int *array, int lo, int hi, int *aux)
 {
-	int		mid;
-	t_merge_sort_input merge_input;
+	int					mid;
+	t_merge_sort_input	merge_input;
 
 	if (hi - lo < 2)
 		return ;
 	mid = (hi + lo) / 2;
 	merge_sort_impl(array, lo, mid, aux);
 	merge_sort_impl(array, mid, hi, aux);
-
 	merge_input.array = array;
 	merge_input.lo = lo;
 	merge_input.mid = mid;

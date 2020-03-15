@@ -1,6 +1,6 @@
 NAME = libft.a
 CC = gcc
-FLAGS = -Wall -Werror -Wextra -O3 -c
+FLAGS = -Wall -Werror -Wextra -c
 INCLUDES = -I$(HEADERS_DIRECTORY)
 HEADERS_LIST = \
 	libft.h\
