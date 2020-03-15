@@ -35,26 +35,25 @@ int		as_int(const char *term, int size)
 	int		result;
 	int		i;
 	int		multiplier;
-	int		new_multiplier;
+	int		temp;
 	int		sign;
 
 	i = size - 1;
 	result = 0;
-	multiplier = 1;
 	sign = is_sign(term[0], term[1]);
-	while (i >= sign)
-	{
-		if (result > result + chtoi(term[i]) * multiplier)
-			error("Error\n");
-		result += chtoi(term[i]) * multiplier;
-		new_multiplier = multiplier * 10;
-		if (new_multiplier <= multiplier)
-			error("Error\n");
-		multiplier = new_multiplier;
-		--i;
-	}
 	if (sign == 1)
-		result *= (term[0] == '-' ? -1 : 1);
+		multiplier = (term[0] == '-' ? -1 : 1);
+	else
+		multiplier = 1;
+	while (1)
+	{
+		temp = mply_secure(chtoi(term[i]), multiplier);
+		result = sum_secure(result, temp);
+		--i;
+		if(i < sign)
+			break;
+		multiplier = mply_secure(multiplier, 10);
+	}
 	return (result);
 }
 

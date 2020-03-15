@@ -15,9 +15,7 @@
 # include "two_stacks_operation.h"
 
 void	error(const char *message);
-int		my_sign(int i);
 int		*clone_array(int *array, int size);
-void	swap(int *a, int *b);
 int		find_in_array(int *arr, int size, int val);
 int		abs(int i);
 int		find_max(int *arr, int size);
@@ -27,5 +25,7 @@ int		one_of(char ch, const char *str);
 int		has_duplicates(int *arr, int size);
 t_cmd	get_cmd(const char *cmd);
 int		is_sign(char c, char c2);
+int sum_secure(int x, int a);
+int mply_secure(int x, int a);
 
 #endif

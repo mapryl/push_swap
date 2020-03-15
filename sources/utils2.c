@@ -13,15 +13,6 @@
 #include "utils.h"
 #include "libft.h"
 
-void	swap(int *a, int *b)
-{
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
-
 int		find_in_array(int *arr, int size, int val)
 {
 	int		i;

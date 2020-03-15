@@ -17,20 +17,17 @@
 int		is_sorted(int *array, int size)
 {
 	int		sorted;
+	int 	cur_sort;
 	int		i;
 
 	if (size < 2)
 		return (ORDER_NOT_DEFINED);
-	i = 0;
-	while (i + 1 < size && array[i] == array[i + 1])
-		++i;
-	if (i + 1 == size)
-		return (ORDER_NOT_DEFINED);
-	sorted = (array[i] > array[i + 1]) ? ORDER_DESCEND : ORDER_ASCEND;
+	sorted = (array[0] > array[1]) ? ORDER_DESCEND : ORDER_ASCEND;
+	i = 1;
 	while (i + 1 < size)
 	{
-		if (array[i] == array[i + 1] ||
-				my_sign(array[i + 1] - array[i]) == sorted)
+		cur_sort = (array[i] > array[i + 1]) ? ORDER_DESCEND : ORDER_ASCEND;
+		if (cur_sort == sorted)
 			++i;
 		else
 			return (ORDER_NOT);
