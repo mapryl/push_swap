@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mapryl/Desktop/push_swap
+CMAKE_SOURCE_DIR = /home/alina/clionprojects/push_swap2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mapryl/Desktop/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alina/clionprojects/push_swap2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mapryl/Desktop/push_swap/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/alina/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles /Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles /home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mapryl/Desktop/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alina/clionprojects/push_swap2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -528,6 +528,33 @@ libft/sources/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.s
 .PHONY : libft/sources/get_next_line.c.s
 
+sources/checker.o: sources/checker.c.o
+
+.PHONY : sources/checker.o
+
+# target to build an object file
+sources/checker.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.o
+.PHONY : sources/checker.c.o
+
+sources/checker.i: sources/checker.c.i
+
+.PHONY : sources/checker.i
+
+# target to preprocess a source file
+sources/checker.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.i
+.PHONY : sources/checker.c.i
+
+sources/checker.s: sources/checker.c.s
+
+.PHONY : sources/checker.s
+
+# target to generate assembly for a file
+sources/checker.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/checker.c.s
+.PHONY : sources/checker.c.s
+
 sources/insertion_sort.o: sources/insertion_sort.c.o
 
 .PHONY : sources/insertion_sort.o
@@ -608,33 +635,6 @@ sources/parse.s: sources/parse.c.s
 sources/parse.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse.c.s
 .PHONY : sources/parse.c.s
-
-sources/push_swap.o: sources/push_swap.c.o
-
-.PHONY : sources/push_swap.o
-
-# target to build an object file
-sources/push_swap.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.o
-.PHONY : sources/push_swap.c.o
-
-sources/push_swap.i: sources/push_swap.c.i
-
-.PHONY : sources/push_swap.i
-
-# target to preprocess a source file
-sources/push_swap.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.i
-.PHONY : sources/push_swap.c.i
-
-sources/push_swap.s: sources/push_swap.c.s
-
-.PHONY : sources/push_swap.s
-
-# target to generate assembly for a file
-sources/push_swap.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/push_swap.c.s
-.PHONY : sources/push_swap.c.s
 
 sources/sort_utils.o: sources/sort_utils.c.o
 
@@ -1075,8 +1075,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... push_swap"
+	@echo "... edit_cache"
 	@echo "... libft/sources/ft_atoi.o"
 	@echo "... libft/sources/ft_atoi.i"
 	@echo "... libft/sources/ft_atoi.s"
@@ -1122,6 +1122,9 @@ help:
 	@echo "... libft/sources/get_next_line.o"
 	@echo "... libft/sources/get_next_line.i"
 	@echo "... libft/sources/get_next_line.s"
+	@echo "... sources/checker.o"
+	@echo "... sources/checker.i"
+	@echo "... sources/checker.s"
 	@echo "... sources/insertion_sort.o"
 	@echo "... sources/insertion_sort.i"
 	@echo "... sources/insertion_sort.s"
@@ -1131,9 +1134,6 @@ help:
 	@echo "... sources/parse.o"
 	@echo "... sources/parse.i"
 	@echo "... sources/parse.s"
-	@echo "... sources/push_swap.o"
-	@echo "... sources/push_swap.i"
-	@echo "... sources/push_swap.s"
 	@echo "... sources/sort_utils.o"
 	@echo "... sources/sort_utils.i"
 	@echo "... sources/sort_utils.s"

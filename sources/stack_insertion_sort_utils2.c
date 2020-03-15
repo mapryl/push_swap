@@ -26,9 +26,10 @@ void	rotate_to_elem(t_two_stacks *two_stacks, int is_stack_a, int val)
 	i = dist.val;
 	while (i-- > 0)
 	{
-		cmd = (dist.dir == DIRECTION_DOWN)
-			? ((is_stack_a) ? CMD_RRA : CMD_RRB)
-			: ((is_stack_a) ? CMD_RA : CMD_RB);
+		if (dist.dir == DIRECTION_DOWN)
+			cmd = (is_stack_a) ? CMD_RRA : CMD_RRB;
+		else
+			cmd = (is_stack_a) ? CMD_RA : CMD_RB;
 		two_stacks_command(two_stacks, cmd);
 	}
 }

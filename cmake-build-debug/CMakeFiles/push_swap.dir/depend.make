@@ -59,6 +59,18 @@ CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o: ../libft/includes/get_
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/sources/get_next_line.c.o: ../libft/sources/get_next_line.c
 
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/operation_list.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/parse.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/sort_utils.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/stack.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/two_stacks.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/two_stacks_operation.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/utils.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../includes/vector.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/sources/checker.c.o: ../sources/checker.c
+
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o: ../includes/operation_list.h
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o: ../includes/sort_utils.h
 CMakeFiles/push_swap.dir/sources/insertion_sort.c.o: ../includes/stack.h
@@ -81,19 +93,6 @@ CMakeFiles/push_swap.dir/sources/parse.c.o: ../includes/vector.h
 CMakeFiles/push_swap.dir/sources/parse.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/push_swap.dir/sources/parse.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/sources/parse.c.o: ../sources/parse.c
-
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/operation_list.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/parse.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/sort_utils.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/stack.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/stack_sort.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/two_stacks.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/two_stacks_operation.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/utils.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../includes/vector.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/sources/push_swap.c.o: ../sources/push_swap.c
 
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o: ../includes/sort_utils.h
 CMakeFiles/push_swap.dir/sources/sort_utils.c.o: ../includes/two_stacks_operation.h

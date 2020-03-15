@@ -33,7 +33,10 @@ static int	new_line(char **stack, char **line)
 	char *temp;
 
 	if ((*stack)[0] == 0)
+	{
+		ft_memdel((void **)stack);
 		return (0);
+	}
 	if (ft_strchr(*stack, '\n'))
 	{
 		*(ft_strchr(*stack, '\n')) = '\0';
@@ -41,9 +44,7 @@ static int	new_line(char **stack, char **line)
 		temp = ft_strdup(ft_strchr(*stack, '\0') + 1);
 		free(*stack);
 		if (temp != 0)
-		{
 			*stack = temp;
-		}
 	}
 	else
 	{

@@ -27,11 +27,15 @@ int		as_int(const char *term, int size)
 	int		i;
 	int		multiplier;
 	int		new_multiplier;
+	int		sign;
 
 	i = size - 1;
 	result = 0;
 	multiplier = 1;
-	while (i >= 0)
+	sign = 0;
+	if (term[0] == '-' || term[0] == '+')
+		sign = 1;
+	while (i >= sign)
 	{
 		if (result > result + chtoi(term[i]) * multiplier)
 			error("Error\n");
@@ -42,6 +46,8 @@ int		as_int(const char *term, int size)
 		multiplier = new_multiplier;
 		--i;
 	}
+	if (sign == 1)
+		result *= (term[0] == '-' ? -1 : 1);
 	return (result);
 }
 
