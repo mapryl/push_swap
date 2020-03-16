@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 16:34:20 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/15 16:40:14 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/16 16:06:59 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 int		is_sorted(int *array, int size)
 {
 	int		sorted;
-	int 	cur_sort;
+	int		cur_sort;
 	int		i;
 
 	if (size < 2)

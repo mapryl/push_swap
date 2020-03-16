@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 16:43:58 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/15 16:52:25 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/16 16:09:24 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,8 @@ int		as_int(const char *term, int size)
 		temp = mply_secure(chtoi(term[i]), multiplier);
 		result = sum_secure(result, temp);
 		--i;
-		if(i < sign)
-			break;
+		if (i < sign)
+			break ;
 		multiplier = mply_secure(multiplier, 10);
 	}
 	return (result);

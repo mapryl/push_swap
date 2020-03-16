@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 17:56:21 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/13 17:57:33 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/16 16:06:02 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int		one_of(char ch, const char *str);
 int		has_duplicates(int *arr, int size);
 t_cmd	get_cmd(const char *cmd);
 int		is_sign(char c, char c2);
-int sum_secure(int x, int a);
-int mply_secure(int x, int a);
+int		sum_secure(int x, int a);
+int		mply_secure(int x, int a);
 
 #endif

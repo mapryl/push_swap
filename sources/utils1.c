@@ -6,7 +6,7 @@
 /*   By: mapryl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/13 16:56:06 by mapryl            #+#    #+#             */
-/*   Updated: 2020/03/15 16:41:31 by mapryl           ###   ########.fr       */
+/*   Updated: 2020/03/16 16:08:06 by mapryl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,21 +37,19 @@ int		*clone_array(int *array, int size)
 	return (new_arr);
 }
 
-int sum_secure(int x, int a)
+int		sum_secure(int x, int a)
 {
 	if (((x > 0) && (a > INT_MAX - x)) || ((x < 0) && (a < INT_MIN - x)))
 		error("Error\n");
 	return (x + a);
 }
 
-int mply_secure(int x, int a)
+int		mply_secure(int x, int a)
 {
-	if(x == 0 || a == 0)
-		return 0;
-
+	if (x == 0 || a == 0)
+		return (0);
 	if (((a == -1) && (x == INT_MIN)) || ((x == -1) && (a == INT_MIN)))
 		error("Error\n");
-
 	if ((a > 0 && x > 0) || (a < 0 && x < 0))
 	{
 		if (a > INT_MAX / x)
@@ -59,6 +57,5 @@ int mply_secure(int x, int a)
 	}
 	else if ((a < 0 && a < INT_MIN / x) || (x < 0 && x < INT_MIN / a))
 		error("Error\n");
-
 	return (x * a);
 }
